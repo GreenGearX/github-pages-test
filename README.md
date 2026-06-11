@@ -1,0 +1,52 @@
+## GitHub Pages test — README.md
+
+# GitHub Pages Test Site
+
+A minimal repository to test GitHub Pages deployment and configuration.
+
+## Purpose
+- Verify GitHub Pages builds and serves content from this repository.
+- Test branch/folder settings (main branch, gh-pages branch, /docs folder).
+- Validate custom domain, HTTPS, and Jekyll build behavior if enabled.
+
+## Contents
+- index.html — simple landing page used for verification
+- 404.html — optional custom 404 page
+- docs/ — optional site source when using /docs publishing
+- assets/ — images, CSS, JS used by the test page
+- README.md — this file
+
+## Quick start
+1. Edit or confirm index.html contains visible text (e.g., "GitHub Pages test — OK").
+2. Push to the repository.
+3. In repository Settings → Pages, choose the publishing source:
+   - Branch: main (root) OR
+   - Branch: main /docs folder OR
+   - Branch: gh-pages (root)
+4. Save; wait a minute for the site to build.
+5. Visit the provided site URL shown in the Pages settings (or your custom domain).
+
+## Test checklist
+- [ ] index.html loads and displays expected text
+- [ ] Custom 404 page appears for unknown paths (if 404.html present)
+- [ ] Assets (CSS/JS/images) load correctly
+- [ ] HTTPS enabled and certificate issued (if using custom domain)
+- [ ] Jekyll build works (if using Jekyll files like _config.yml)
+
+## Example index.html (drop into repo root or docs/)
+```html
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>GitHub Pages test — OK</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <style>body{font-family:system-ui,Segoe UI,Roboto,-apple-system;display:flex;min-height:100vh;align-items:center;justify-content:center;margin:0}</style>
+  </head>
+  <body>
+    <main>
+      <h1>GitHub Pages test — OK</h1>
+      <p>Branch: <strong>main</strong> — Published: <strong>root</strong></p>
+    </main>
+  </body>
+</html>
