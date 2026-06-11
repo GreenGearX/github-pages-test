@@ -5,12 +5,16 @@ app = marimo.App(width="medium")
 
 
 @app.cell
-def _():
+async def _():
     import marimo as mo
-    from markitdown import MarkItDown
+    import micropip
     import io
 
-    return MarkItDown, io, mo
+    await micropip.install("markitdown")
+
+    from markitdown import MarkItDown
+
+    return MarkItDown, io, micropip, mo
 
 
 @app.cell
@@ -46,8 +50,10 @@ def _(file_button, mo):
 
 
 @app.cell
-def _(MarkItDown, file_button, io, mo):
+async def _(MarkItDown, file_button, io, micropip, mo):
     # Simple instantiation, clear intent
+    await micropip.install("markitdown")
+
     md = MarkItDown()
     _output = None
     if file_button.value:
