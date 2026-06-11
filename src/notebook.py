@@ -52,8 +52,8 @@ def _(
     SummaryOrchestrator,
 ):
     config = AppConfig.from_dict({
-        "api_url" : "https://nebula.cs.vu.nl/api/v1", 
-        "api_token" : "sk-a2ad1d4c2b4244448cefdc93fec50be1",
+        "api_url" : "", 
+        "api_token" : "",
         "MODEL": "gpt-oss-120b-120k",
         "MODEL_TEMP": 0,
         "SUMMARY_MODEL": "gemma3-12b-120k",
