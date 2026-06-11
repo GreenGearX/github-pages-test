@@ -10,9 +10,9 @@ async def _():
     import micropip
     import io
 
-    await micropip.install("markitdown")
+    await micropip.install("markitdown-no-magika")
 
-    from markitdown import MarkItDown
+    from markitdown_no_magika import MarkItDown
 
     return MarkItDown, io, micropip, mo
 
