@@ -10,11 +10,11 @@ async def _():
     import micropip
     import io
 
-    await micropip.install("markitdown-no-magika")
+    await micropip.install("markitdown-no-magika[pdf]")
 
     from markitdown_no_magika import MarkItDown
 
-    return MarkItDown, io, micropip, mo
+    return MarkItDown, io, mo
 
 
 @app.cell
@@ -50,9 +50,8 @@ def _(file_button, mo):
 
 
 @app.cell
-async def _(MarkItDown, file_button, io, micropip, mo):
+def _(MarkItDown, file_button, io, mo):
     # Simple instantiation, clear intent
-    await micropip.install("markitdown")
 
     md = MarkItDown()
     _output = None

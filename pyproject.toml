@@ -9,7 +9,8 @@ license = { text = "Public Domain" }
 
 dependencies = [
   "marimo",
-  "markitdown[pdf]"
+  "markitdown[pdf]",
+  "markitdown-no-magika[pdf]"
 ]
 
 [build-system]

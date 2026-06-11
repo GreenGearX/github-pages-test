@@ -8,6 +8,7 @@ Requires-Python: ==3.13.*
 Description-Content-Type: text/markdown
 Requires-Dist: marimo
 Requires-Dist: markitdown[pdf]
+Requires-Dist: markitdown-no-magika[pdf]
 
 ## GitHub Pages test — README.md
 

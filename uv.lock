@@ -193,12 +193,14 @@ source = { editable = "." }
 dependencies = [
     { name = "marimo" },
     { name = "markitdown", extra = ["pdf"] },
+    { name = "markitdown-no-magika", extra = ["pdf"] },
 ]
 
 [package.metadata]
 requires-dist = [
     { name = "marimo" },
     { name = "markitdown", extras = ["pdf"] },
+    { name = "markitdown-no-magika", extras = ["pdf"] },
 ]
 
 [[package]]
@@ -373,6 +375,27 @@ wheels = [
 pdf = [
     { name = "pdfminer-six" },
     { name = "pdfplumber" },
+]
+
+[[package]]
+name = "markitdown-no-magika"
+version = "0.1.2"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "beautifulsoup4" },
+    { name = "charset-normalizer" },
+    { name = "defusedxml" },
+    { name = "markdownify" },
+    { name = "requests" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/98/85/d14e6c4e892a999b3decd21ede782b7a82be20449fb4d3c6b1441796c605/markitdown_no_magika-0.1.2.tar.gz", hash = "sha256:35f129f4715727f10c58f645536e63084db7029e39d73ffcf7788539dc644116", size = 39402, upload-time = "2025-06-30T03:07:02.101Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/52/2c/0f8e81f5a97e59b71a5a1ba3b6c5e766684877ebfd3c6267c3838aa7f69a/markitdown_no_magika-0.1.2-py3-none-any.whl", hash = "sha256:f56927498a80e8778d52e467b91688014361855a040eb02c42174e758da835cd", size = 58654, upload-time = "2025-06-30T03:07:00.214Z" },
+]
+
+[package.optional-dependencies]
+pdf = [
+    { name = "pdfminer-six" },
 ]
 
 [[package]]
