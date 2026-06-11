@@ -1,0 +1,16 @@
+[project]
+name = "github-pages-test"
+version = "0.1.0"
+description = "Small project to test GitHub Pages and basic packaging."
+authors = [{ name = "Your Name", email = "you@example.com" }]
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "Public Domain" }
+
+dependencies = [
+  "marimo"  # replace with "marimo==X.Y.Z" if you need a fixed version
+]
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"

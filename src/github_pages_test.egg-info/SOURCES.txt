@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+src/github_pages_test.egg-info/PKG-INFO
+src/github_pages_test.egg-info/SOURCES.txt
+src/github_pages_test.egg-info/dependency_links.txt
+src/github_pages_test.egg-info/requires.txt
+src/github_pages_test.egg-info/top_level.txt
