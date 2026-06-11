@@ -4,11 +4,12 @@ version = "0.1.0"
 description = "Small project to test GitHub Pages and basic packaging."
 authors = [{ name = "Your Name", email = "you@example.com" }]
 readme = "README.md"
-requires-python = ">=3.8"
+requires-python = "==3.13.*"
 license = { text = "Public Domain" }
 
 dependencies = [
-  "marimo"  # replace with "marimo==X.Y.Z" if you need a fixed version
+  "marimo",
+  "markitdown[pdf]"
 ]
 
 [build-system]

@@ -4,9 +4,10 @@ Version: 0.1.0
 Summary: Small project to test GitHub Pages and basic packaging.
 Author-email: Your Name <you@example.com>
 License: Public Domain
-Requires-Python: >=3.8
+Requires-Python: ==3.13.*
 Description-Content-Type: text/markdown
 Requires-Dist: marimo
+Requires-Dist: markitdown[pdf]
 
 ## GitHub Pages test — README.md
 

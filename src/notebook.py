@@ -7,8 +7,10 @@ app = marimo.App(width="medium")
 @app.cell
 def _():
     import marimo as mo
+    from markitdown import MarkItDown
+    import io
 
-    return (mo,)
+    return MarkItDown, io, mo
 
 
 @app.cell
@@ -18,6 +20,7 @@ def _(mo):
     """)
     return
 
+
 @app.cell
 def _(mo):
     slider = mo.ui.slider(1, 22)
@@ -26,7 +29,36 @@ def _(mo):
 
 
 @app.cell
-def _():
+def _(mo):
+    file_button = mo.ui.file(kind="button")
+    file_button
+    return (file_button,)
+
+
+@app.cell
+def _(file_button, mo):
+    _output = None
+    if file_button.value:
+        _output = mo.md(f"Button upload: {file_button.name()}")
+
+    _output
+    return
+
+
+@app.cell
+def _(MarkItDown, file_button, io, mo):
+    # Simple instantiation, clear intent
+    md = MarkItDown()
+    _output = None
+    if file_button.value:
+        uploaded_file = file_button.value[0]
+        file_bytes = uploaded_file.contents
+        file_name = uploaded_file.name
+        file_stream = io.BytesIO(file_bytes)
+
+        _output = mo.md(f"{md.convert_stream(file_stream, file_name=file_name)}")
+
+    _output
     return
 
 
