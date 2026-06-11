@@ -7,26 +7,45 @@
   "cells": [
     {
       "id": "Hbol",
-      "code_hash": "3ba09bd00d2e730964371d4a83a4ebc3",
+      "code_hash": "ea89769d0760971704ed0bdf3673bbab",
       "outputs": [
         {
-          "type": "data",
-          "data": {
-            "text/plain": ""
-          }
+          "type": "error",
+          "ename": "exception",
+          "evalue": "No module named 'wibt_tool'",
+          "traceback": null
         }
       ],
       "console": [
         {
           "type": "stream",
           "name": "stderr",
-          "text": "markitdown-no-magika[pdf] was not installed: micropip is only available in WASM notebooks.",
+          "text": "markitdown-no-magika[pdf] was not installed: micropip is only available in WASM notebooks.pypdf was not installed: micropip is only available in WASM notebooks.https://raw.githubusercontent.com/ubvu/wibt-tool/refs/heads/refactor/dist/wibt_tool-0.1.0-py3-none-any.whl was not installed: micropip is only available in WASM notebooks.",
           "mimetype": "text/plain"
+        },
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "<span class=\"codehilite\"><div class=\"highlight\"><pre><span></span><span class=\"gt\">Traceback (most recent call last):</span>\n  File <span class=\"nb\">&quot;/tmp/marimo_1600724/__marimo__cell_Hbol_.py&quot;</span>, line <span class=\"m\">12</span>, in <span class=\"n\">&lt;module&gt;</span>\n<span class=\"w\">    </span><span class=\"kn\">from</span><span class=\"w\"> </span><span class=\"nn\">wibt_tool.config</span><span class=\"w\"> </span><span class=\"kn\">import</span> <span class=\"n\">AppConfig</span>\n<span class=\"gr\">ModuleNotFoundError</span>: <span class=\"n\">No module named &#39;wibt_tool&#39;</span>\n</pre></div>\n</span>",
+          "mimetype": "application/vnd.marimo+traceback"
         }
       ]
     },
     {
       "id": "MJUe",
+      "code_hash": "97e2ef5c4bc7cbae0ae40801ee5b8fc4",
+      "outputs": [
+        {
+          "type": "error",
+          "ename": "exception",
+          "evalue": "An ancestor raised an exception (ModuleNotFoundError): ",
+          "traceback": null
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "vblA",
       "code_hash": "d0376762bec2eb3dd6c5b95f126fa53c",
       "outputs": [
         {
@@ -39,63 +58,56 @@
       "console": []
     },
     {
-      "id": "vblA",
+      "id": "bkHC",
       "code_hash": "0bf33876dee270a518e1707bd5f7b38e",
       "outputs": [
         {
-          "type": "data",
-          "data": {
-            "text/html": "<marimo-ui-element object-id='vblA-0' random-id='531fe93a-3ca3-a85d-4bef-3e3e71573b0b'><marimo-slider data-initial-value='1' data-label='null' data-start='1' data-stop='22' data-steps='[]' data-debounce='false' data-disabled='false' data-orientation='&quot;horizontal&quot;' data-show-value='false' data-include-input='false' data-full-width='false'></marimo-slider></marimo-ui-element>"
-          }
-        }
-      ],
-      "console": []
-    },
-    {
-      "id": "bkHC",
-      "code_hash": "c48b72ccd1520bd7f87e6d37472b111b",
-      "outputs": [
-        {
-          "type": "data",
-          "data": {
-            "text/html": "<marimo-ui-element object-id='bkHC-0' random-id='5f7dea2c-7272-0578-d760-0f5c31a5da35'><marimo-file data-initial-value='[]' data-label='null' data-filetypes='[]' data-multiple='false' data-kind='&quot;button&quot;' data-max_size='100000000'></marimo-file></marimo-ui-element>"
-          }
+          "type": "error",
+          "ename": "exception",
+          "evalue": "An ancestor raised an exception (ModuleNotFoundError): ",
+          "traceback": null
         }
       ],
       "console": []
     },
     {
       "id": "lEQa",
-      "code_hash": "6473b52b8b83279fa69054cb24629ea0",
+      "code_hash": "c48b72ccd1520bd7f87e6d37472b111b",
       "outputs": [
         {
-          "type": "data",
-          "data": {
-            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">Button upload: 978-981-97-8588-9.pdf</span></span>"
-          }
+          "type": "error",
+          "ename": "exception",
+          "evalue": "An ancestor raised an exception (ModuleNotFoundError): ",
+          "traceback": null
         }
       ],
       "console": []
     },
     {
       "id": "PKri",
-      "code_hash": "40dc307760057018795af56d3eb8fd0e",
+      "code_hash": "6473b52b8b83279fa69054cb24629ea0",
       "outputs": [
         {
           "type": "error",
           "ename": "exception",
-          "evalue": "Could not convert stream to Markdown. No converter attempted a conversion, suggesting that the filetype is simply not supported.",
+          "evalue": "An ancestor raised an exception (ModuleNotFoundError): ",
           "traceback": null
         }
       ],
-      "console": [
+      "console": []
+    },
+    {
+      "id": "Xref",
+      "code_hash": "f4c2e526196cb749cbabe1da7781a443",
+      "outputs": [
         {
-          "type": "stream",
-          "name": "stderr",
-          "text": "<span class=\"codehilite\"><div class=\"highlight\"><pre><span></span><span class=\"gt\">Traceback (most recent call last):</span>\n  File <span class=\"nb\">&quot;/tmp/marimo_1471045/__marimo__cell_PKri_.py&quot;</span>, line <span class=\"m\">11</span>, in <span class=\"n\">&lt;module&gt;</span>\n<span class=\"w\">    </span><span class=\"n\">_output</span> <span class=\"o\">=</span> <span class=\"n\">mo</span><span class=\"o\">.</span><span class=\"n\">md</span><span class=\"p\">(</span><span class=\"sa\">f</span><span class=\"s2\">&quot;</span><span class=\"si\">{</span><span class=\"n\">md</span><span class=\"o\">.</span><span class=\"n\">convert_stream</span><span class=\"p\">(</span><span class=\"n\">file_stream</span><span class=\"p\">,</span><span class=\"w\"> </span><span class=\"n\">file_name</span><span class=\"o\">=</span><span class=\"n\">file_name</span><span class=\"p\">)</span><span class=\"si\">}</span><span class=\"s2\">&quot;</span><span class=\"p\">)</span>\n<span class=\"w\">                       </span><span class=\"pm\">~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>\n  File <span class=\"nb\">&quot;/var/home/geoffrey/projects/github-pages-test/.venv/lib/python3.13/site-packages/markitdown_no_magika/_markitdown.py&quot;</span>, line <span class=\"m\">376</span>, in <span class=\"n\">convert_stream</span>\n<span class=\"w\">    </span><span class=\"k\">return</span> <span class=\"bp\">self</span><span class=\"o\">.</span><span class=\"n\">_convert</span><span class=\"p\">(</span><span class=\"n\">file_stream</span><span class=\"o\">=</span><span class=\"n\">stream</span><span class=\"p\">,</span> <span class=\"n\">stream_info_guesses</span><span class=\"o\">=</span><span class=\"n\">guesses</span><span class=\"p\">,</span> <span class=\"o\">**</span><span class=\"n\">kwargs</span><span class=\"p\">)</span>\n<span class=\"w\">           </span><span class=\"pm\">~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>\n  File <span class=\"nb\">&quot;/var/home/geoffrey/projects/github-pages-test/.venv/lib/python3.13/site-packages/markitdown_no_magika/_markitdown.py&quot;</span>, line <span class=\"m\">618</span>, in <span class=\"n\">_convert</span>\n<span class=\"w\">    </span><span class=\"k\">raise</span> <span class=\"n\">UnsupportedFormatException</span><span class=\"p\">(</span>\n<span class=\"w\">    </span>    <span class=\"s2\">&quot;Could not convert stream to Markdown. No converter attempted a conversion, suggesting that the filetype is simply not supported.&quot;</span>\n<span class=\"w\">    </span><span class=\"p\">)</span>\n<span class=\"gr\">markitdown_no_magika._exceptions.UnsupportedFormatException</span>: <span class=\"n\">Could not convert stream to Markdown. No converter attempted a conversion, suggesting that the filetype is simply not supported.</span>\n</pre></div>\n</span>",
-          "mimetype": "application/vnd.marimo+traceback"
+          "type": "error",
+          "ename": "exception",
+          "evalue": "An ancestor raised an exception (ModuleNotFoundError): ",
+          "traceback": null
         }
-      ]
+      ],
+      "console": []
     }
   ]
 }

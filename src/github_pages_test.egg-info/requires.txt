@@ -1,3 +1,2 @@
 marimo
-markitdown[pdf]
 markitdown-no-magika[pdf]
