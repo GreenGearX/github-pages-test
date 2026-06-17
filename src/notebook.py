@@ -53,9 +53,13 @@ def _(
     SummaryOrchestrator,
     TranslationOrchestrator,
 ):
+    _query_params = mo.query_params()
+    _api_url = _query_params['api_url']
+    _api_token = _query_params['api_token']
+
     config = AppConfig.from_dict({
-        "api_url" : "", 
-        "api_token" : "",
+        "api_url" : _api_url, 
+        "api_token" : _api_token,
         "MODEL": "gpt-oss-120b-120k",
         "MODEL_TEMP": 0,
         "SUMMARY_MODEL": "gemma3-12b-120k",
