@@ -1,2 +1,3 @@
 marimo
 markitdown-no-magika[pdf]
+pypdf>=6.13.2

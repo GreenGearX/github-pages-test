@@ -38,6 +38,7 @@ async def _():
         PdfReader,
         PromptManager,
         SummaryOrchestrator,
+        TranslationOrchestrator,
         io,
         mo,
     )
@@ -50,6 +51,7 @@ def _(
     OpenAIClient,
     PromptManager,
     SummaryOrchestrator,
+    TranslationOrchestrator,
 ):
     config = AppConfig.from_dict({
         "api_url" : "", 
@@ -89,20 +91,12 @@ def _(
     )
 
     llm_endpoint = OpenAIClient(token=config.api_token, endpoint=config.api_url)
-
     prompt_manager = PromptManager(config=config)
-
     agent_factory = AgentFactory(config=config, prompt_manager=prompt_manager, llm_endpoint=llm_endpoint)
 
     summary_orchestrator = SummaryOrchestrator(agent_factory, prompt_manager, config, "static", False)
-
-    summary_result = summary_orchestrator.run(
-        paper="paper", 
-        summary_ctx="general", 
-        fact_ctx="general", 
-        iterations=1
-    )
-    return
+    translation_orchestrator = TranslationOrchestrator(agent_factory, config)
+    return summary_orchestrator, translation_orchestrator
 
 
 @app.cell
@@ -139,7 +133,7 @@ def _(file_button, mo):
 
 @app.cell
 def _(MarkItDown, PdfReader, file_button, io, mo):
-
+    paper = None
     md = MarkItDown()
     _output = None
     if file_button.value:
@@ -154,9 +148,31 @@ def _(MarkItDown, PdfReader, file_button, io, mo):
         # page = reader.pages[0]
             text += page.extract_text()
         _output = mo.md(f"{text}")
+        paper = text
 
         # _output = mo.md(f"{md.convert_stream(file_stream, file_extension=".pdf", file_name=file_name)}")
 
+    _output
+    return (paper,)
+
+
+@app.cell
+async def _(mo, paper, summary_orchestrator, translation_orchestrator):
+    _output = None
+    if paper:
+        summary_result = await summary_orchestrator.run(
+            paper=paper, 
+            summary_ctx="general", 
+            fact_ctx="general", 
+            iterations=1
+        )
+        summary = summary_result['summary']
+
+        translation = await translation_orchestrator.run(
+                summary=summary, 
+                translation_ctx="general"
+            )
+        _output = mo.md(translation)
     _output
     return
 
