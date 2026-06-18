@@ -106,15 +106,55 @@ def _(
 @app.cell
 def _(mo):
     mo.md("""
-    # Title
+    # Wetenschap in Begrijpelijke Taal - Tool
+    Met deze tool kun je van een wetenschappelijk artikel een sammenvatting in begrijpbaar Nederlands laten maken door LLMs.
+    """)
+    return
+
+@app.cell
+def _(mo):
+    mo.md("""
+    ## Instellingen
+    Je kunt enkele aanpassingen maken in hoe de samenvatting wordt gemaakt. Als je niet weet of je een aanpassing wilt maken, dan zijn de huidige instellingen een goed startpunt.
+    ### Aantal kandidaatsamenvattingen
+    Deze tool maakt een aantal verschillende samenvattingen en kiest daarna de beste. Je krijgt dus slechts één samenvatting te zien. Meer samenvattingen genereren om uit te kiezen verhoogt de kans op een betere samenvatting, maar vergt meer tijd. Gebruik de slider hieronder om het aantal samenvattingen te kiezen.
+    """)
+    return
+
+@app.cell
+def _(mo):
+    slider = mo.ui.slider(1, 10, value=5, show_value=True, label="Aantal kandidaten:")
+    slider
+    return
+
+@app.cell
+def _(mo):
+    mo.md("""
+    ### Gebruik
+    Deze tool kan samenvattingen maken voor verschillende soorten gebruik. Kies 'beleidsvorming' voor een samenvatting die gericht is op het informeren bij het vormen van (politiek) beleid. Kies 'psychologie' voor een samenvatting die gericht is om psychologen te informeren. Kies 'algemeen' om een samenvatting te genereren die meer algemeen is dan de vorige twee keuzes. 
     """)
     return
 
 
 @app.cell
 def _(mo):
-    slider = mo.ui.slider(1, 22)
-    slider
+    context = mo.ui.dropdown(
+        options={
+            "algemeen": "general",
+            "psycholgie": "psychology",
+            "beleidsvorming" : "tweede-kamer"
+        },
+        value="algemeen" 
+    )
+    context
+    return (context,)
+
+@app.cell
+def _(mo):
+    mo.md("""
+    ## Paper
+    Klik op 'upload' om de paper waarvan je een samenvatting wilt te uploaden. Druk vervolgens op 'maak samenvatting' om de samenvatting te laten genereren.
+    """)
     return
 
 
@@ -128,8 +168,9 @@ def _(mo):
 @app.cell
 def _(file_button, mo):
     _output = None
+    start_button = mo.ui.run_button(label="maak samenvatting")
     if file_button.value:
-        _output = mo.md(f"Button upload: {file_button.name()}")
+        _output = start_button
 
     _output
     return
@@ -149,9 +190,8 @@ def _(MarkItDown, PdfReader, file_button, io, mo):
         reader = PdfReader(file_stream)
         text = ""
         for page in reader.pages:
-        # page = reader.pages[0]
             text += page.extract_text()
-        _output = mo.md(f"{text}")
+        _output = mo.accordion({"Paper tekst": mo.md(f"{text}")})
         paper = text
 
         # _output = mo.md(f"{md.convert_stream(file_stream, file_extension=".pdf", file_name=file_name)}")
@@ -163,20 +203,28 @@ def _(MarkItDown, PdfReader, file_button, io, mo):
 @app.cell
 async def _(mo, paper, summary_orchestrator, translation_orchestrator):
     _output = None
-    if paper:
-        summary_result = await summary_orchestrator.run(
-            paper=paper, 
-            summary_ctx="general", 
-            fact_ctx="general", 
-            iterations=1
-        )
+    if paper and start_button.value:
+        _iterations = slider.value
+        _context = context.value
+        with mo.status.progress_bar(total=_iterations, title="Bezig met samenvattingen genereren", completion_title="Klaar met samenvattingen genereren") as bar:
+    
+            for i in range(_iterations):
+                summary_result = await summary_orchestrator.run(
+                    paper=paper, 
+                    summary_ctx=_context, 
+                    fact_ctx=_context, 
+                    iterations=1
+                )
+                bar.update()
+
+
         summary = summary_result['summary']
 
         translation = await translation_orchestrator.run(
                 summary=summary, 
-                translation_ctx="general"
+                translation_ctx=_context
             )
-        _output = mo.md(translation)
+        _output = mo.accordion({ "Engels": mo.md(summary), "Nederlands": mo.md(translation)})
     _output
     return
 
