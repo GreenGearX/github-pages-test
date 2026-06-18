@@ -219,11 +219,11 @@ async def _(mo, paper, summary_orchestrator, translation_orchestrator):
 
 
         summary = summary_result['summary']
-
-        translation = await translation_orchestrator.run(
-                summary=summary, 
-                translation_ctx=_context
-            )
+        with mo.status.progress_bar(total=1, title="Bezig met vertalen", completion_title="Klaar met vertalen") as bar:
+            translation = await translation_orchestrator.run(
+                    summary=summary, 
+                    translation_ctx=_context
+                )
         _output = mo.accordion({ "Engels": mo.md(summary), "Nederlands": mo.md(translation)})
     _output
     return
