@@ -9,6 +9,7 @@ Description-Content-Type: text/markdown
 Requires-Dist: marimo
 Requires-Dist: markitdown-no-magika[pdf]
 Requires-Dist: pypdf>=6.13.2
+Requires-Dist: wibt-tool @ https://raw.githubusercontent.com/ubvu/wibt-tool/refs/heads/refactor/dist/wibt_tool-0.1.0-py3-none-any.whl
 
 ## GitHub Pages test — README.md
 

@@ -7,24 +7,38 @@
   "cells": [
     {
       "id": "Hbol",
-      "code_hash": "ea89769d0760971704ed0bdf3673bbab",
-      "outputs": [],
-      "console": []
-    },
-    {
-      "id": "MJUe",
-      "code_hash": "bb02b95cc8f5ac457fe6dab2b39200c9",
-      "outputs": [],
-      "console": []
-    },
-    {
-      "id": "vblA",
-      "code_hash": "d0376762bec2eb3dd6c5b95f126fa53c",
+      "code_hash": "599850273b5e11a13dff8b3dc58c9130",
       "outputs": [
         {
           "type": "data",
           "data": {
-            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"title\">Title</h1></span>"
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "MJUe",
+      "code_hash": "90540aa17564278d2b5dff0a0bdda02d",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "vblA",
+      "code_hash": "83ee8c5abca03b69a1cda82258bf917e",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
           }
         }
       ],
@@ -32,32 +46,327 @@
     },
     {
       "id": "bkHC",
-      "code_hash": "0bf33876dee270a518e1707bd5f7b38e",
-      "outputs": [],
+      "code_hash": "0504b2b031c06068c433775d0bcb166b",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
       "console": []
     },
     {
       "id": "lEQa",
-      "code_hash": "c48b72ccd1520bd7f87e6d37472b111b",
-      "outputs": [],
+      "code_hash": "273b7ed285acbcd03f65afe8e7b932ae",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
       "console": []
     },
     {
       "id": "PKri",
-      "code_hash": "6473b52b8b83279fa69054cb24629ea0",
-      "outputs": [],
+      "code_hash": "956e080e07aa1e4c88a6c567fc9b59bc",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
       "console": []
     },
     {
       "id": "Xref",
-      "code_hash": "411f8ec3911d05f97241f583a2a1cd03",
-      "outputs": [],
+      "code_hash": "36a855be2afbef9cf5b1656ae94b0f65",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: center;flex-wrap: nowrap;gap: 0rem'><div><div style='display: flex;flex: 1;flex-direction: row;justify-content: space-between;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">Taal</span></span><marimo-ui-element object-id='PKri-0' random-id='0e41f30d-74cf-605c-f817-f8701ced485d'><marimo-dropdown data-initial-value='[&quot;\ud83c\uddf3\ud83c\uddf1 - Nederlands&quot;]' data-label='null' data-options='[&quot;\ud83c\uddf3\ud83c\uddf1 - Nederlands&quot;,&quot;\ud83c\uddec\ud83c\udde7 - English&quot;]' data-allow-select-none='false' data-searchable='false' data-full-width='false' data-disabled='false'></marimo-dropdown></marimo-ui-element></div></div></div>"
+          }
+        }
+      ],
       "console": []
     },
     {
       "id": "SFPL",
-      "code_hash": "c4f6a5ca81d1e07aef5bc871c06cfe55",
-      "outputs": [],
+      "code_hash": "ed17697ba0f11fed401924cc16e1829c",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "BYtC",
+      "code_hash": null,
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "RGSE",
+      "code_hash": "88ab4d269309855c3e34e4f0eb93be9d",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Kclp",
+      "code_hash": "7366b3ba5f5f09360c8e42e2a29a14f7",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "emfo",
+      "code_hash": "1926e1a646b331123510dd8e0b74b45a",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Hstk",
+      "code_hash": "ab87bf1ac4114de0e1772ad1441dd675",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "nWHF",
+      "code_hash": "d65843b8c34c7af7c78fdd58cbb13576",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "iLit",
+      "code_hash": "d42702cc8693b39e06a1cbf8683bc4f2",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"wetenschap-in-begrijpelijke-taal-tool\">Wetenschap in Begrijpelijke Taal - Tool</h1>\n<span class=\"paragraph\">Met deze tool kun je van een wetenschappelijk artikel een sammenvatting in begrijpbaar Nederlands laten maken door LLMs.</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "ZHCJ",
+      "code_hash": "b9b2be143194711ddcb72af38eca9e98",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"instellingen\">Instellingen</h2>\n<span class=\"paragraph\">Je kunt enkele aanpassingen maken in hoe de samenvatting wordt gemaakt. Als je niet weet of je een aanpassing wilt maken, dan zijn de huidige instellingen een goed startpunt.</span>\n<h3 id=\"aantal-kandidaatsamenvattingen\">Aantal kandidaatsamenvattingen</h3>\n<span class=\"paragraph\">Deze tool maakt een aantal verschillende samenvattingen en kiest daarna de beste. Je krijgt dus slechts \u00e9\u00e9n samenvatting te zien. Meer samenvattingen genereren om uit te kiezen verhoogt de kans op een betere samenvatting, maar vergt meer tijd. Gebruik de slider hieronder om het aantal samenvattingen te kiezen.</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "ROlb",
+      "code_hash": "32c665dc3032f0887e8cb2d0c56cc411",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='ROlb-0' random-id='46db128a-09d9-c32a-1914-e02863a1cce5'><marimo-slider data-initial-value='3' data-label='&quot;&#92;u003cspan class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&#92;u003e&#92;u003cspan class=&#92;&quot;paragraph&#92;&quot;&#92;u003eAantal kandidaten:&#92;u003c/span&#92;u003e&#92;u003c/span&#92;u003e&quot;' data-start='1' data-stop='10' data-steps='[]' data-debounce='false' data-disabled='false' data-orientation='&quot;horizontal&quot;' data-show-value='true' data-include-input='false' data-full-width='false'></marimo-slider></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "qnkX",
+      "code_hash": "072c6ad791c7ac2a3898ad8854e0af93",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"gebruik\">Gebruik</h3>\n<span class=\"paragraph\">Deze tool kan samenvattingen maken voor verschillende soorten gebruik. Kies 'beleidsvorming' voor een samenvatting die gericht is op het informeren bij het vormen van (politiek) beleid. Kies 'psychologie' voor een samenvatting die gericht is om psychologen te informeren. Kies 'algemeen' om een samenvatting te genereren die meer algemeen is dan de vorige twee keuzes.</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "TqIu",
+      "code_hash": "322fd0057586a12349536b0da31c6ce8",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='TqIu-0' random-id='b2575171-27f1-81f0-6d2f-b628716398cf'><marimo-dropdown data-initial-value='[&quot;algemeen&quot;]' data-label='null' data-options='[&quot;algemeen&quot;,&quot;psychologie&quot;,&quot;beleidsvorming&quot;]' data-allow-select-none='false' data-searchable='false' data-full-width='false' data-disabled='false'></marimo-dropdown></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Vxnm",
+      "code_hash": "f39e15f6954ddf06c8029c02a80068d1",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"geavanceerde-instellingen\">Geavanceerde instellingen</h2>\n<span class=\"paragraph\">Pas hier de api endpoint en de modellen voor de verschillende rollen aan.</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "DnEU",
+      "code_hash": "dc36c5d9ab5a8f812552015a389e4dc5",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "ulZA",
+      "code_hash": "b41844bab762abc2bd1d8517be6ea52e",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-accordion data-labels='[&quot;&#92;u003cspan class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&#92;u003e&#92;u003cspan class=&#92;&quot;paragraph&#92;&quot;&#92;u003eAPI endpoint&#92;u003c/span&#92;u003e&#92;u003c/span&#92;u003e&quot;,&quot;&#92;u003cspan class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&#92;u003e&#92;u003cspan class=&#92;&quot;paragraph&#92;&quot;&#92;u003eModel instellingen&#92;u003c/span&#92;u003e&#92;u003c/span&#92;u003e&quot;]' data-multiple='true'><div><div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: center;flex-wrap: nowrap;gap: 0rem'><div><div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><div style='display: flex;flex: 1;flex-direction: row;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><div style='width: 350px; font-weight: bold;'>API Endpoint:</div><marimo-ui-element object-id='SFPL-0' random-id='93cb9044-7b69-66e7-e696-24dc86b73fd3'><marimo-text data-initial-value='&quot;https://nebula.cs.vu.nl/api/v1&quot;' data-label='null' data-placeholder='&quot;https://example.com/v1&quot;' data-kind='&quot;url&quot;' data-full-width='true' data-disabled='false' data-debounce='true'></marimo-text></marimo-ui-element></div><div style='display: flex;flex: 1;flex-direction: row;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><div style='width: 350px; font-weight: bold;'>API Token:</div><marimo-ui-element object-id='SFPL-1' random-id='2261818a-e36f-23b0-b18c-c4d11b9e7a20'><marimo-text data-initial-value='&quot;&quot;' data-label='null' data-placeholder='&quot;sk-...&quot;' data-kind='&quot;password&quot;' data-full-width='false' data-disabled='false' data-debounce='true' data-password-has-value='true'></marimo-text></marimo-ui-element></div></div></div></div></div><div><div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: center;flex-wrap: nowrap;gap: 0rem'><div><div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><div style='display: flex;flex: 1;flex-direction: row;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><div style='width: 350px; font-weight: bold;'>SUMMARY_MODEL</div><marimo-ui-element object-id='ulZA-0' random-id='38bc2c49-a128-5d9e-ff09-840999fd8e43'><marimo-dropdown data-initial-value='[&quot;gemma3-12b-120k&quot;]' data-label='null' data-options='[&quot;SURF.default-text-large&quot;,&quot;FAST.gemma3:12b&quot;,&quot;FAST.gpt-oss:120b&quot;,&quot;go-assist&quot;,&quot;research-railway-guide&quot;,&quot;vu-rdm-support-chatbot---test&quot;,&quot;gemma3-12b-120k&quot;,&quot;gpt-oss-120b-120k&quot;,&quot;translategemma:12b&quot;,&quot;gpt-oss-120b-120k-clone&quot;,&quot;llama3.1:8b&quot;,&quot;SURF.gpt-oss-120b&quot;,&quot;SURF.Mistral-Small-3.2-24B-Instruct-2506&quot;,&quot;SURF.Qwen3.5 122B A10B NVFP4&quot;,&quot;FAST.gemma4:31b&quot;]' data-allow-select-none='false' data-searchable='false' data-full-width='true' data-disabled='false'></marimo-dropdown></marimo-ui-element></div><div style='display: flex;flex: 1;flex-direction: row;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><div style='width: 350px; font-weight: bold;'>SUMMARY_MODEL_TEMP</div><marimo-ui-element object-id='ulZA-1' random-id='a61dd05a-5636-6047-694c-de3d5eef2340'><marimo-slider data-initial-value='0.5' data-label='null' data-start='0' data-stop='1' data-step='0.01' data-steps='[]' data-debounce='false' data-disabled='false' data-orientation='&quot;horizontal&quot;' data-show-value='true' data-include-input='false' data-full-width='false'></marimo-slider></marimo-ui-element></div><div style='display: flex;flex: 1;flex-direction: row;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><div style='width: 350px; font-weight: bold;'>READ_EVAL_MODEL</div><marimo-ui-element object-id='ulZA-2' random-id='8580cfc2-c17b-4148-28cc-f150309eb2d4'><marimo-dropdown data-initial-value='[&quot;gpt-oss-120b-120k&quot;]' data-label='null' data-options='[&quot;SURF.default-text-large&quot;,&quot;FAST.gemma3:12b&quot;,&quot;FAST.gpt-oss:120b&quot;,&quot;go-assist&quot;,&quot;research-railway-guide&quot;,&quot;vu-rdm-support-chatbot---test&quot;,&quot;gemma3-12b-120k&quot;,&quot;gpt-oss-120b-120k&quot;,&quot;translategemma:12b&quot;,&quot;gpt-oss-120b-120k-clone&quot;,&quot;llama3.1:8b&quot;,&quot;SURF.gpt-oss-120b&quot;,&quot;SURF.Mistral-Small-3.2-24B-Instruct-2506&quot;,&quot;SURF.Qwen3.5 122B A10B NVFP4&quot;,&quot;FAST.gemma4:31b&quot;]' data-allow-select-none='false' data-searchable='false' data-full-width='true' data-disabled='false'></marimo-dropdown></marimo-ui-element></div><div style='display: flex;flex: 1;flex-direction: row;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><div style='width: 350px; font-weight: bold;'>READ_EVAL_MODEL_TEMP</div><marimo-ui-element object-id='ulZA-3' random-id='f174a694-25af-bdac-4b3b-51873311f98a'><marimo-slider data-initial-value='0.0' data-label='null' data-start='0' data-stop='1' data-step='0.01' data-steps='[]' data-debounce='false' data-disabled='false' data-orientation='&quot;horizontal&quot;' data-show-value='true' data-include-input='false' data-full-width='false'></marimo-slider></marimo-ui-element></div><div style='display: flex;flex: 1;flex-direction: row;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><div style='width: 350px; font-weight: bold;'>PREDRAFT_MODEL</div><marimo-ui-element object-id='ulZA-4' random-id='84d3d547-27a6-d9d7-b979-3fea2e16ef56'><marimo-dropdown data-initial-value='[&quot;gpt-oss-120b-120k&quot;]' data-label='null' data-options='[&quot;SURF.default-text-large&quot;,&quot;FAST.gemma3:12b&quot;,&quot;FAST.gpt-oss:120b&quot;,&quot;go-assist&quot;,&quot;research-railway-guide&quot;,&quot;vu-rdm-support-chatbot---test&quot;,&quot;gemma3-12b-120k&quot;,&quot;gpt-oss-120b-120k&quot;,&quot;translategemma:12b&quot;,&quot;gpt-oss-120b-120k-clone&quot;,&quot;llama3.1:8b&quot;,&quot;SURF.gpt-oss-120b&quot;,&quot;SURF.Mistral-Small-3.2-24B-Instruct-2506&quot;,&quot;SURF.Qwen3.5 122B A10B NVFP4&quot;,&quot;FAST.gemma4:31b&quot;]' data-allow-select-none='false' data-searchable='false' data-full-width='true' data-disabled='false'></marimo-dropdown></marimo-ui-element></div><div style='display: flex;flex: 1;flex-direction: row;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><div style='width: 350px; font-weight: bold;'>PREDRAFT_MODEL_TEMP</div><marimo-ui-element object-id='ulZA-5' random-id='9d0eba3c-66c5-893d-97fd-f61fc0ad8449'><marimo-slider data-initial-value='0.0' data-label='null' data-start='0' data-stop='1' data-step='0.01' data-steps='[]' data-debounce='false' data-disabled='false' data-orientation='&quot;horizontal&quot;' data-show-value='true' data-include-input='false' data-full-width='false'></marimo-slider></marimo-ui-element></div><div style='display: flex;flex: 1;flex-direction: row;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><div style='width: 350px; font-weight: bold;'>DRAFT_MODEL</div><marimo-ui-element object-id='ulZA-6' random-id='f613d4d6-9e9a-23f2-3605-d825860f126d'><marimo-dropdown data-initial-value='[&quot;gemma3-12b-120k&quot;]' data-label='null' data-options='[&quot;SURF.default-text-large&quot;,&quot;FAST.gemma3:12b&quot;,&quot;FAST.gpt-oss:120b&quot;,&quot;go-assist&quot;,&quot;research-railway-guide&quot;,&quot;vu-rdm-support-chatbot---test&quot;,&quot;gemma3-12b-120k&quot;,&quot;gpt-oss-120b-120k&quot;,&quot;translategemma:12b&quot;,&quot;gpt-oss-120b-120k-clone&quot;,&quot;llama3.1:8b&quot;,&quot;SURF.gpt-oss-120b&quot;,&quot;SURF.Mistral-Small-3.2-24B-Instruct-2506&quot;,&quot;SURF.Qwen3.5 122B A10B NVFP4&quot;,&quot;FAST.gemma4:31b&quot;]' data-allow-select-none='false' data-searchable='false' data-full-width='true' data-disabled='false'></marimo-dropdown></marimo-ui-element></div><div style='display: flex;flex: 1;flex-direction: row;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><div style='width: 350px; font-weight: bold;'>DRAFT_MODEL_TEMP</div><marimo-ui-element object-id='ulZA-7' random-id='e2a5fe7c-c0fb-0634-3a55-6b345655bbff'><marimo-slider data-initial-value='0.0' data-label='null' data-start='0' data-stop='1' data-step='0.01' data-steps='[]' data-debounce='false' data-disabled='false' data-orientation='&quot;horizontal&quot;' data-show-value='true' data-include-input='false' data-full-width='false'></marimo-slider></marimo-ui-element></div><div style='display: flex;flex: 1;flex-direction: row;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><div style='width: 350px; font-weight: bold;'>REFINE_DRAFT_MODEL</div><marimo-ui-element object-id='ulZA-8' random-id='aa153f6a-c444-2070-4e59-3101ed22534b'><marimo-dropdown data-initial-value='[&quot;gemma3-12b-120k&quot;]' data-label='null' data-options='[&quot;SURF.default-text-large&quot;,&quot;FAST.gemma3:12b&quot;,&quot;FAST.gpt-oss:120b&quot;,&quot;go-assist&quot;,&quot;research-railway-guide&quot;,&quot;vu-rdm-support-chatbot---test&quot;,&quot;gemma3-12b-120k&quot;,&quot;gpt-oss-120b-120k&quot;,&quot;translategemma:12b&quot;,&quot;gpt-oss-120b-120k-clone&quot;,&quot;llama3.1:8b&quot;,&quot;SURF.gpt-oss-120b&quot;,&quot;SURF.Mistral-Small-3.2-24B-Instruct-2506&quot;,&quot;SURF.Qwen3.5 122B A10B NVFP4&quot;,&quot;FAST.gemma4:31b&quot;]' data-allow-select-none='false' data-searchable='false' data-full-width='true' data-disabled='false'></marimo-dropdown></marimo-ui-element></div><div style='display: flex;flex: 1;flex-direction: row;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><div style='width: 350px; font-weight: bold;'>REFINE_DRAFT_MODEL_TEMP</div><marimo-ui-element object-id='ulZA-9' random-id='0e30d479-090a-a54f-7c1f-dabb21dca76c'><marimo-slider data-initial-value='0.0' data-label='null' data-start='0' data-stop='1' data-step='0.01' data-steps='[]' data-debounce='false' data-disabled='false' data-orientation='&quot;horizontal&quot;' data-show-value='true' data-include-input='false' data-full-width='false'></marimo-slider></marimo-ui-element></div><div style='display: flex;flex: 1;flex-direction: row;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><div style='width: 350px; font-weight: bold;'>PROOFREAD_MODEL</div><marimo-ui-element object-id='ulZA-10' random-id='ba7cb366-ddda-be9d-ffb0-db5e4c0f5054'><marimo-dropdown data-initial-value='[&quot;gemma3-12b-120k&quot;]' data-label='null' data-options='[&quot;SURF.default-text-large&quot;,&quot;FAST.gemma3:12b&quot;,&quot;FAST.gpt-oss:120b&quot;,&quot;go-assist&quot;,&quot;research-railway-guide&quot;,&quot;vu-rdm-support-chatbot---test&quot;,&quot;gemma3-12b-120k&quot;,&quot;gpt-oss-120b-120k&quot;,&quot;translategemma:12b&quot;,&quot;gpt-oss-120b-120k-clone&quot;,&quot;llama3.1:8b&quot;,&quot;SURF.gpt-oss-120b&quot;,&quot;SURF.Mistral-Small-3.2-24B-Instruct-2506&quot;,&quot;SURF.Qwen3.5 122B A10B NVFP4&quot;,&quot;FAST.gemma4:31b&quot;]' data-allow-select-none='false' data-searchable='false' data-full-width='true' data-disabled='false'></marimo-dropdown></marimo-ui-element></div><div style='display: flex;flex: 1;flex-direction: row;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><div style='width: 350px; font-weight: bold;'>PROOFREAD_MODEL_TEMP</div><marimo-ui-element object-id='ulZA-11' random-id='eb7aba43-90f6-7632-105d-aa422192f8f1'><marimo-slider data-initial-value='0.0' data-label='null' data-start='0' data-stop='1' data-step='0.01' data-steps='[]' data-debounce='false' data-disabled='false' data-orientation='&quot;horizontal&quot;' data-show-value='true' data-include-input='false' data-full-width='false'></marimo-slider></marimo-ui-element></div><div style='display: flex;flex: 1;flex-direction: row;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><div style='width: 350px; font-weight: bold;'>DIRECT_TRANSLATION_MODEL</div><marimo-ui-element object-id='ulZA-12' random-id='b27f0abd-a8e3-1744-c2fa-0841e39e9fb2'><marimo-dropdown data-initial-value='[&quot;translategemma:12b&quot;]' data-label='null' data-options='[&quot;SURF.default-text-large&quot;,&quot;FAST.gemma3:12b&quot;,&quot;FAST.gpt-oss:120b&quot;,&quot;go-assist&quot;,&quot;research-railway-guide&quot;,&quot;vu-rdm-support-chatbot---test&quot;,&quot;gemma3-12b-120k&quot;,&quot;gpt-oss-120b-120k&quot;,&quot;translategemma:12b&quot;,&quot;gpt-oss-120b-120k-clone&quot;,&quot;llama3.1:8b&quot;,&quot;SURF.gpt-oss-120b&quot;,&quot;SURF.Mistral-Small-3.2-24B-Instruct-2506&quot;,&quot;SURF.Qwen3.5 122B A10B NVFP4&quot;,&quot;FAST.gemma4:31b&quot;]' data-allow-select-none='false' data-searchable='false' data-full-width='true' data-disabled='false'></marimo-dropdown></marimo-ui-element></div><div style='display: flex;flex: 1;flex-direction: row;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><div style='width: 350px; font-weight: bold;'>DIRECT_TRANSLATION_MODEL_TEMP</div><marimo-ui-element object-id='ulZA-13' random-id='6d3669da-6c7c-b8e4-ffd9-2052d127076f'><marimo-slider data-initial-value='0.0' data-label='null' data-start='0' data-stop='1' data-step='0.01' data-steps='[]' data-debounce='false' data-disabled='false' data-orientation='&quot;horizontal&quot;' data-show-value='true' data-include-input='false' data-full-width='false'></marimo-slider></marimo-ui-element></div><div style='display: flex;flex: 1;flex-direction: row;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><div style='width: 350px; font-weight: bold;'>FACT_EXTRACTION_MODEL</div><marimo-ui-element object-id='ulZA-14' random-id='0196ad81-47ef-f244-1fb4-1f3de50c4960'><marimo-dropdown data-initial-value='[&quot;gpt-oss-120b-120k&quot;]' data-label='null' data-options='[&quot;SURF.default-text-large&quot;,&quot;FAST.gemma3:12b&quot;,&quot;FAST.gpt-oss:120b&quot;,&quot;go-assist&quot;,&quot;research-railway-guide&quot;,&quot;vu-rdm-support-chatbot---test&quot;,&quot;gemma3-12b-120k&quot;,&quot;gpt-oss-120b-120k&quot;,&quot;translategemma:12b&quot;,&quot;gpt-oss-120b-120k-clone&quot;,&quot;llama3.1:8b&quot;,&quot;SURF.gpt-oss-120b&quot;,&quot;SURF.Mistral-Small-3.2-24B-Instruct-2506&quot;,&quot;SURF.Qwen3.5 122B A10B NVFP4&quot;,&quot;FAST.gemma4:31b&quot;]' data-allow-select-none='false' data-searchable='false' data-full-width='true' data-disabled='false'></marimo-dropdown></marimo-ui-element></div><div style='display: flex;flex: 1;flex-direction: row;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><div style='width: 350px; font-weight: bold;'>FACT_EXTRACTION_MODEL_TEMP</div><marimo-ui-element object-id='ulZA-15' random-id='5215271f-9dce-536b-1806-b19f989980c8'><marimo-slider data-initial-value='0.0' data-label='null' data-start='0' data-stop='1' data-step='0.01' data-steps='[]' data-debounce='false' data-disabled='false' data-orientation='&quot;horizontal&quot;' data-show-value='true' data-include-input='false' data-full-width='false'></marimo-slider></marimo-ui-element></div><div style='display: flex;flex: 1;flex-direction: row;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><div style='width: 350px; font-weight: bold;'>FACT_VALIDATION_0_MODEL</div><marimo-ui-element object-id='ulZA-16' random-id='d2defdea-8fa2-af77-fc7d-43a04f655a62'><marimo-dropdown data-initial-value='[&quot;gpt-oss-120b-120k&quot;]' data-label='null' data-options='[&quot;SURF.default-text-large&quot;,&quot;FAST.gemma3:12b&quot;,&quot;FAST.gpt-oss:120b&quot;,&quot;go-assist&quot;,&quot;research-railway-guide&quot;,&quot;vu-rdm-support-chatbot---test&quot;,&quot;gemma3-12b-120k&quot;,&quot;gpt-oss-120b-120k&quot;,&quot;translategemma:12b&quot;,&quot;gpt-oss-120b-120k-clone&quot;,&quot;llama3.1:8b&quot;,&quot;SURF.gpt-oss-120b&quot;,&quot;SURF.Mistral-Small-3.2-24B-Instruct-2506&quot;,&quot;SURF.Qwen3.5 122B A10B NVFP4&quot;,&quot;FAST.gemma4:31b&quot;]' data-allow-select-none='false' data-searchable='false' data-full-width='true' data-disabled='false'></marimo-dropdown></marimo-ui-element></div><div style='display: flex;flex: 1;flex-direction: row;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><div style='width: 350px; font-weight: bold;'>FACT_VALIDATION_0_MODEL_TEMP</div><marimo-ui-element object-id='ulZA-17' random-id='e4a3f217-dfc3-62b9-b846-8ba69be24899'><marimo-slider data-initial-value='0.5' data-label='null' data-start='0' data-stop='1' data-step='0.01' data-steps='[]' data-debounce='false' data-disabled='false' data-orientation='&quot;horizontal&quot;' data-show-value='true' data-include-input='false' data-full-width='false'></marimo-slider></marimo-ui-element></div><div style='display: flex;flex: 1;flex-direction: row;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><div style='width: 350px; font-weight: bold;'>FACT_VALIDATION_1_MODEL</div><marimo-ui-element object-id='ulZA-18' random-id='8bb5a796-5e8d-2b76-2832-d997a3569076'><marimo-dropdown data-initial-value='[&quot;gemma3-12b-120k&quot;]' data-label='null' data-options='[&quot;SURF.default-text-large&quot;,&quot;FAST.gemma3:12b&quot;,&quot;FAST.gpt-oss:120b&quot;,&quot;go-assist&quot;,&quot;research-railway-guide&quot;,&quot;vu-rdm-support-chatbot---test&quot;,&quot;gemma3-12b-120k&quot;,&quot;gpt-oss-120b-120k&quot;,&quot;translategemma:12b&quot;,&quot;gpt-oss-120b-120k-clone&quot;,&quot;llama3.1:8b&quot;,&quot;SURF.gpt-oss-120b&quot;,&quot;SURF.Mistral-Small-3.2-24B-Instruct-2506&quot;,&quot;SURF.Qwen3.5 122B A10B NVFP4&quot;,&quot;FAST.gemma4:31b&quot;]' data-allow-select-none='false' data-searchable='false' data-full-width='true' data-disabled='false'></marimo-dropdown></marimo-ui-element></div><div style='display: flex;flex: 1;flex-direction: row;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><div style='width: 350px; font-weight: bold;'>FACT_VALIDATION_1_MODEL_TEMP</div><marimo-ui-element object-id='ulZA-19' random-id='5e26d513-1f1d-5f6b-6efe-671ff99709a3'><marimo-slider data-initial-value='0.5' data-label='null' data-start='0' data-stop='1' data-step='0.01' data-steps='[]' data-debounce='false' data-disabled='false' data-orientation='&quot;horizontal&quot;' data-show-value='true' data-include-input='false' data-full-width='false'></marimo-slider></marimo-ui-element></div><div style='display: flex;flex: 1;flex-direction: row;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><div style='width: 350px; font-weight: bold;'>FACT_VALIDATION_2_MODEL</div><marimo-ui-element object-id='ulZA-20' random-id='96cb3f2a-56e0-79b7-1c7e-58e04ec2743f'><marimo-dropdown data-initial-value='[&quot;gemma3-12b-120k&quot;]' data-label='null' data-options='[&quot;SURF.default-text-large&quot;,&quot;FAST.gemma3:12b&quot;,&quot;FAST.gpt-oss:120b&quot;,&quot;go-assist&quot;,&quot;research-railway-guide&quot;,&quot;vu-rdm-support-chatbot---test&quot;,&quot;gemma3-12b-120k&quot;,&quot;gpt-oss-120b-120k&quot;,&quot;translategemma:12b&quot;,&quot;gpt-oss-120b-120k-clone&quot;,&quot;llama3.1:8b&quot;,&quot;SURF.gpt-oss-120b&quot;,&quot;SURF.Mistral-Small-3.2-24B-Instruct-2506&quot;,&quot;SURF.Qwen3.5 122B A10B NVFP4&quot;,&quot;FAST.gemma4:31b&quot;]' data-allow-select-none='false' data-searchable='false' data-full-width='true' data-disabled='false'></marimo-dropdown></marimo-ui-element></div><div style='display: flex;flex: 1;flex-direction: row;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><div style='width: 350px; font-weight: bold;'>FACT_VALIDATION_2_MODEL_TEMP</div><marimo-ui-element object-id='ulZA-21' random-id='5bcece49-8208-1a1f-e9fa-8932ffff0b96'><marimo-slider data-initial-value='0.5' data-label='null' data-start='0' data-stop='1' data-step='0.01' data-steps='[]' data-debounce='false' data-disabled='false' data-orientation='&quot;horizontal&quot;' data-show-value='true' data-include-input='false' data-full-width='false'></marimo-slider></marimo-ui-element></div><div style='display: flex;flex: 1;flex-direction: row;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><div style='width: 350px; font-weight: bold;'>ALIGNMENT_MODEL</div><marimo-ui-element object-id='ulZA-22' random-id='ae8b5d8b-5d18-7720-5935-44c5221c535c'><marimo-dropdown data-initial-value='[&quot;gpt-oss-120b-120k&quot;]' data-label='null' data-options='[&quot;SURF.default-text-large&quot;,&quot;FAST.gemma3:12b&quot;,&quot;FAST.gpt-oss:120b&quot;,&quot;go-assist&quot;,&quot;research-railway-guide&quot;,&quot;vu-rdm-support-chatbot---test&quot;,&quot;gemma3-12b-120k&quot;,&quot;gpt-oss-120b-120k&quot;,&quot;translategemma:12b&quot;,&quot;gpt-oss-120b-120k-clone&quot;,&quot;llama3.1:8b&quot;,&quot;SURF.gpt-oss-120b&quot;,&quot;SURF.Mistral-Small-3.2-24B-Instruct-2506&quot;,&quot;SURF.Qwen3.5 122B A10B NVFP4&quot;,&quot;FAST.gemma4:31b&quot;]' data-allow-select-none='false' data-searchable='false' data-full-width='true' data-disabled='false'></marimo-dropdown></marimo-ui-element></div><div style='display: flex;flex: 1;flex-direction: row;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><div style='width: 350px; font-weight: bold;'>ALIGNMENT_MODEL_TEMP</div><marimo-ui-element object-id='ulZA-23' random-id='9e820cf3-be0e-cdd0-e50f-552927047563'><marimo-slider data-initial-value='0.0' data-label='null' data-start='0' data-stop='1' data-step='0.01' data-steps='[]' data-debounce='false' data-disabled='false' data-orientation='&quot;horizontal&quot;' data-show-value='true' data-include-input='false' data-full-width='false'></marimo-slider></marimo-ui-element></div><div style='display: flex;flex: 1;flex-direction: row;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><div style='width: 350px; font-weight: bold;'>ADVOCATE_MODEL</div><marimo-ui-element object-id='ulZA-24' random-id='62623f82-63f7-6b51-d87c-e30799add6a9'><marimo-dropdown data-initial-value='[&quot;gpt-oss-120b-120k&quot;]' data-label='null' data-options='[&quot;SURF.default-text-large&quot;,&quot;FAST.gemma3:12b&quot;,&quot;FAST.gpt-oss:120b&quot;,&quot;go-assist&quot;,&quot;research-railway-guide&quot;,&quot;vu-rdm-support-chatbot---test&quot;,&quot;gemma3-12b-120k&quot;,&quot;gpt-oss-120b-120k&quot;,&quot;translategemma:12b&quot;,&quot;gpt-oss-120b-120k-clone&quot;,&quot;llama3.1:8b&quot;,&quot;SURF.gpt-oss-120b&quot;,&quot;SURF.Mistral-Small-3.2-24B-Instruct-2506&quot;,&quot;SURF.Qwen3.5 122B A10B NVFP4&quot;,&quot;FAST.gemma4:31b&quot;]' data-allow-select-none='false' data-searchable='false' data-full-width='true' data-disabled='false'></marimo-dropdown></marimo-ui-element></div><div style='display: flex;flex: 1;flex-direction: row;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><div style='width: 350px; font-weight: bold;'>ADVOCATE_MODEL_TEMP</div><marimo-ui-element object-id='ulZA-25' random-id='024d7a17-0135-8399-e868-5a616217e23e'><marimo-slider data-initial-value='0.0' data-label='null' data-start='0' data-stop='1' data-step='0.01' data-steps='[]' data-debounce='false' data-disabled='false' data-orientation='&quot;horizontal&quot;' data-show-value='true' data-include-input='false' data-full-width='false'></marimo-slider></marimo-ui-element></div><div style='display: flex;flex: 1;flex-direction: row;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><div style='width: 350px; font-weight: bold;'>SKEPTIC_MODEL</div><marimo-ui-element object-id='ulZA-26' random-id='82d89890-e57e-d7af-0f22-25f6781e6788'><marimo-dropdown data-initial-value='[&quot;gpt-oss-120b-120k&quot;]' data-label='null' data-options='[&quot;SURF.default-text-large&quot;,&quot;FAST.gemma3:12b&quot;,&quot;FAST.gpt-oss:120b&quot;,&quot;go-assist&quot;,&quot;research-railway-guide&quot;,&quot;vu-rdm-support-chatbot---test&quot;,&quot;gemma3-12b-120k&quot;,&quot;gpt-oss-120b-120k&quot;,&quot;translategemma:12b&quot;,&quot;gpt-oss-120b-120k-clone&quot;,&quot;llama3.1:8b&quot;,&quot;SURF.gpt-oss-120b&quot;,&quot;SURF.Mistral-Small-3.2-24B-Instruct-2506&quot;,&quot;SURF.Qwen3.5 122B A10B NVFP4&quot;,&quot;FAST.gemma4:31b&quot;]' data-allow-select-none='false' data-searchable='false' data-full-width='true' data-disabled='false'></marimo-dropdown></marimo-ui-element></div><div style='display: flex;flex: 1;flex-direction: row;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><div style='width: 350px; font-weight: bold;'>SKEPTIC_MODEL_TEMP</div><marimo-ui-element object-id='ulZA-27' random-id='c12a86f8-6752-e2da-6c06-9a295de2d0d4'><marimo-slider data-initial-value='0.0' data-label='null' data-start='0' data-stop='1' data-step='0.01' data-steps='[]' data-debounce='false' data-disabled='false' data-orientation='&quot;horizontal&quot;' data-show-value='true' data-include-input='false' data-full-width='false'></marimo-slider></marimo-ui-element></div><div style='display: flex;flex: 1;flex-direction: row;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><div style='width: 350px; font-weight: bold;'>ADJUDICATOR_MODEL</div><marimo-ui-element object-id='ulZA-28' random-id='db4a397a-ac0d-a0e9-aff6-cbf937e1552d'><marimo-dropdown data-initial-value='[&quot;gpt-oss-120b-120k&quot;]' data-label='null' data-options='[&quot;SURF.default-text-large&quot;,&quot;FAST.gemma3:12b&quot;,&quot;FAST.gpt-oss:120b&quot;,&quot;go-assist&quot;,&quot;research-railway-guide&quot;,&quot;vu-rdm-support-chatbot---test&quot;,&quot;gemma3-12b-120k&quot;,&quot;gpt-oss-120b-120k&quot;,&quot;translategemma:12b&quot;,&quot;gpt-oss-120b-120k-clone&quot;,&quot;llama3.1:8b&quot;,&quot;SURF.gpt-oss-120b&quot;,&quot;SURF.Mistral-Small-3.2-24B-Instruct-2506&quot;,&quot;SURF.Qwen3.5 122B A10B NVFP4&quot;,&quot;FAST.gemma4:31b&quot;]' data-allow-select-none='false' data-searchable='false' data-full-width='true' data-disabled='false'></marimo-dropdown></marimo-ui-element></div><div style='display: flex;flex: 1;flex-direction: row;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><div style='width: 350px; font-weight: bold;'>ADJUDICATOR_MODEL_TEMP</div><marimo-ui-element object-id='ulZA-29' random-id='f97a377a-450b-65c4-4d24-ec004175c103'><marimo-slider data-initial-value='0.0' data-label='null' data-start='0' data-stop='1' data-step='0.01' data-steps='[]' data-debounce='false' data-disabled='false' data-orientation='&quot;horizontal&quot;' data-show-value='true' data-include-input='false' data-full-width='false'></marimo-slider></marimo-ui-element></div></div></div></div></div></marimo-accordion>"
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "INFO:httpx:HTTP Request: GET https://nebula.cs.vu.nl/api/v1/models \"HTTP/1.1 200 OK\"\n",
+          "mimetype": "text/plain"
+        },
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "SURF.default-text-large\nFAST.gemma3:12b\nFAST.gpt-oss:120b\ngo-assist\nresearch-railway-guide\nvu-rdm-support-chatbot---test\ngemma3-12b-120k\ngpt-oss-120b-120k\ntranslategemma:12b\ngpt-oss-120b-120k-clone\nllama3.1:8b\nSURF.gpt-oss-120b\nSURF.Mistral-Small-3.2-24B-Instruct-2506\nSURF.Qwen3.5 122B A10B NVFP4\nFAST.gemma4:31b\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "ecfG",
+      "code_hash": "a9ad3e030776f354bc35efbea9a27453",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"paper\">Paper</h2>\n<span class=\"paragraph\">Klik op 'upload' om de paper waarvan je een samenvatting wilt te uploaden. Druk vervolgens op 'maak samenvatting' om de samenvatting te laten genereren.</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Pvdt",
+      "code_hash": "c48b72ccd1520bd7f87e6d37472b111b",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='Pvdt-0' random-id='f90f24ad-9bfe-6132-f062-9f83b1b337b1'><marimo-file data-initial-value='[]' data-label='null' data-filetypes='[]' data-multiple='false' data-kind='&quot;button&quot;' data-max_size='100000000'></marimo-file></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "ZBYS",
+      "code_hash": "5755de7d4eddb47e439b9e04d4679e5e",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "aLJB",
+      "code_hash": "542facb5e08dd6fd9b8c402d89d2c8a3",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "nHfw",
+      "code_hash": "18cd240226907141542f505eea83525e",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
       "console": []
     }
   ]
